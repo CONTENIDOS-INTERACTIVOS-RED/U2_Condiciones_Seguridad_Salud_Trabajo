@@ -1,23 +1,44 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Marco normativo en seguridad y salud en el trabajo en Colombia'")
+  BannerInterno(:subTitulo="'1. Identificación de riesgos laborales'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
-    .bg-full-width(style="background-color: #e2e9f3 ")
-      .px-4.p-md-5
-        .row.justify-content-center.align-items-center
-          .col-lg-8.mb-lg-0.mb-3
-            h2.mb-4(data-aos="flip-up") Marco normativo en seguridad y salud en el trabajo en Colombia
-            p.mb-4(data-aos="fade-right") El marco normativo en seguridad y salud en el trabajo en Colombia constituye la base para garantizar entornos laborales seguros, prevenir accidentes y enfermedades laborales, y fomentar el bienestar físico y mental de los trabajadores. A continuación, en el PDF Marco normativo, se analizan las principales leyes, decretos y resoluciones que rigen esta área, destacando la responsabilidad compartida entre empleadores y trabajadores en la implementación de sistemas de gestión efectivos. A través de este estudio, se busca formar agentes de cambio comprometidos con la construcción de ambientes laborales más seguros y saludables para todos.
-
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
-              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
-                img(src="@/assets/template/icono-pdf.svg")
-              .anexo__texto
-                p <strong>Anexo. </strong>  Marco normativo.
-
-          .col-lg-4.col-7
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/temas/7.png', alt='')
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8.mb-lg-0.mb-3
+        .bg-color-1.p-4(data-aos="fade-left" style="background-color: #F7DBD5").mb-4
+          .row
+            .col-lg-auto
+              img(src="@/assets/curso/temas/7.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 La identificación de riesgos laborales y peligros, es un proceso fundamental en la gestión de contingencias, que ha evolucionado a lo largo del tiempo, a medida que las sociedades han tomado conciencia de la importancia de la seguridad, en diversos ámbitos. Desde los inicios de la Revolución Industrial, donde los accidentes laborales se volvieron comunes debido a la falta de regulaciones, surgió la necesidad de sistematizar la evaluación de riesgos. 
+        p.mb-0 A medida que avanzaban los conocimientos en áreas como la medicina, la ingeniería y la psicología, comenzaron a desarrollarse metodologías más estructuradas para identificar y analizar peligros en el entorno laboral y cotidiano. En la década de los 60 y 70, se implementaron modelos de gestión de seguridad más complejos, incorporando enfoques como el análisis de fallos y la participación activa de los trabajadores. Esto marcó un cambio significativo en cómo las organizaciones comenzaban a entender su responsabilidad, no solo hacia la productividad, sino también hacia la salud y el bienestar de sus empleados.
+      .col-lg-4.col-7: img(src='@/assets/curso/temas/8.png', alt='')
+    p.mb-4 Lo invitamos a ver el siguiente video, donde conoceremos más sobre algunas temáticas relacionadas con el tema que estamos abordando.
+    .bg-slyder.mn.p-5.mb-5
+      figure
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video: Leyenda del video
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 Impacto en la productividad y el bienestar laboral
+    .bg-color-4.mb-5(data-aos="fade-up" style="background-color: #FEF7E4 ")
+      .row.justify-content-center.align-items-center
+        .col-lg.order-2
+          .p-4
+            p.mb-0(data-aos="fade-up") La identificación de riesgos laborales, también impacta directamente en la productividad. Entornos de trabajo más seguros y saludables, disminuyen las ausencias laborales y aumentan la satisfacción del empleado. La retención de talento se ve favorecida en organizaciones que demuestran un compromiso sólido con la seguridad y la salud en el trabajo, generando un círculo virtuoso que beneficia, tanto a los empleados como a la empresa.
+        .col-lg-auto
+          figure
+            img(src='@/assets/curso/temas/9.png', alt='')
+    .row.justify-content-center.mb-5
+      .col-lg-8.mb-lg-0.mb-3
+        p.mb-4 El propósito principal de identificar riesgos y evaluar peligros en el ámbito de la seguridad y salud en el trabajo, es entender las amenazas que pueden presentarse durante la ejecución de diversas actividades. Esto permite a las organizaciones instaurar controles adecuados para asegurar que los riesgos sean manejables. La evaluación de riesgos es fundamental para una gestión proactiva de la SST, promovida por la alta dirección y formando parte de un enfoque integral, que involucra a todos los niveles de la organización.
+        .bg-color-1.p-4(data-aos="fade-left" style="background-color: #D7F8F4").mb-4
+          .row
+            .col-lg-auto
+              img(src="@/assets/curso/temas/10.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 La identificación de riesgos laborales en Colombia, es un proceso vital que requiere la colaboración activa y el compromiso de empleadores y trabajadores. Fortalecer este aspecto no solo es un imperativo legal, sino también una inversión en la salud y bienestar del personal.  
+        p.mb-0 La creación de un sistema de gestión integral que fomente la cultura de la prevención, se traduce en un entorno de trabajo más seguro y eficiente. Esta guía se propone ser una herramienta útil para todos los actores involucrados, contribuyendo al desarrollo de prácticas seguras y responsables, que no solo cumplan con la normativa vigente, sino que, además, promuevan un futuro laboral más saludable y productivo para todos.
+      .col-lg-4.col-7: img(src='@/assets/curso/temas/11.png', alt='')
 </template>
 
 <script>

@@ -22,12 +22,11 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 En un entorno laboral en constante cambio, garantizar la seguridad y salud en el trabajo es esencial para el desarrollo sostenible de las organizaciones. Esta unidad aborda el marco normativo y técnico en Colombia, proporcionando herramientas clave para identificar, evaluar y gestionar riesgos laborales. Además, promueve una cultura de prevención alineada con las normas nacionales e internacionales, integrando a todos los niveles de la organización en la construcción de ambientes laborales seguros y saludables.
+              p.descripcion.mb-4 En un entorno laboral en constante evolución, garantizar la seguridad y el bienestar de los trabajadores es una prioridad. Esta unidad se centra en la identificación de riesgos laborales como una herramienta esencial para prevenir accidentes, proteger la salud y promover la productividad organizacional. A través de un enfoque práctico y teórico, se estudiarán normativas, métodos de evaluación y estrategias de mitigación que permitan implementar programas efectivos de seguridad y salud en el trabajo.
                 br
                 br
-                |#[b ¡Prepárate para liderar iniciativas que transformen la seguridad en tu entorno profesional!]
+                | #[b ¡Prepárate para ser un agente de cambio en la creación de entornos laborales seguros y sostenibles!]
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡El éxito está en cada esfuerzo que haces hoy!
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

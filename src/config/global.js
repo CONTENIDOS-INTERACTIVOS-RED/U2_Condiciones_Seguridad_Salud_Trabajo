@@ -1,8 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad:
-      'Marco normativo y técnico en seguridad y salud en el trabajo en Colombia',
+    numeroUnidad: '2',
+    tituloUnidad: 'Identificación de riesgos laborales',
   },
   menuPrincipal: {
     menu: [
