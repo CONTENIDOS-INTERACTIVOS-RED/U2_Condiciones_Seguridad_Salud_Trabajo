@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(:subTitulo="'4. Resolución 0312 del 2019'")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.px-4.px-md-5
     .mn(style="background-color: #E2E9F3").mb-4
       .px-5.p-md-5
           .row.justify-content-center.align-items-center
@@ -97,7 +97,7 @@
             .col-lg-5
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/60.png', alt='')
-    .mn(style="background-color: #E2E9F3 ;border-top: 5px solid orange").mb-4
+    .mn(style="background-color: #E2E9F3 ;border-top: 5px solid orange")
       .px-5.p-md-5
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-lg-0.mb-3

@@ -100,12 +100,30 @@
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/53.png', alt='Texto que describa la imagen')
-    .bg-color-1.p-4(data-aos="fade-left" style="background-color: #FAECE9").mb-4
+    .bg-color-1.p-4(data-aos="fade-left" style="background-color: #FAECE9").mb-5
       .row
         .col-lg-auto
           img(src="@/assets/curso/temas/54.svg", style="max-width: 90px").mx-auto
         .col-lg
-          p.mb-0 Es fundamental elegir el método adecuado en función de la naturaleza de la empresa, el sector y las características de los puestos de trabajo. La combinación de varios métodos también puede ser una estrategia efectiva para obtener una evaluación más completa y precisa de los riesgos laborales.       
+          p.mb-0 Es fundamental elegir el método adecuado en función de la naturaleza de la empresa, el sector y las características de los puestos de trabajo. La combinación de varios métodos también puede ser una estrategia efectiva para obtener una evaluación más completa y precisa de los riesgos laborales.    
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5.material-complementario
+        h2.mb-5 MATERIAL COMPLEMENTARIO
+        
+        .row.mb-0
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S1991-93952024000100013&lng=es&tlng=es" target="_blank" rel="noopener noreferrer") Acosta Pérez, Idalmis, Marrero Delgado, Fernando, Espinosa Acosta, José Ángel, Rivero Rodríguez, Luis Darién, & Ramírez Lara, Dayana. (2024). Gestión estratégica de los riesgos de Seguridad y Salud en el Trabajo. Revista Cubana de Salud y Trabajo, 25(1), . Epub 01 de abril de 2024.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="http://132.255.23.82/sipnvo/normatividad/GTC_45_DE_2012.pdf" target="_blank" rel="noopener noreferrer") Ministerio de Trabajo. (2012). GTC 45: Guía para la identificación de los peligros y la valoración de los riesgos en seguridad y salud ocupacional. 
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')   
 </template>
 
 <script>
@@ -122,9 +140,3 @@ export default {
   },
 }
 </script>
-
-<style lang="sass">
-.material-complementario
-  padding-top: 3rem
-  border-top: 9px solid $color-sistema-e
-</style>

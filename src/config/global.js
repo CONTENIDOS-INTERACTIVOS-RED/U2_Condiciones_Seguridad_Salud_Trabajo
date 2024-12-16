@@ -15,37 +15,78 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo:
-          'Marco normativo en seguridad y salud en el trabajo en Colombia',
+        titulo: 'Identificación de riesgos laborales',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '1.1',
+            titulo: 'Impacto en la productividad y el bienestar laboral',
+            hash: 't_1_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Ley 1562 del 2012 en Colombia',
+        titulo: 'Tipos de riesgos y peligros laborales',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Riesgos físicos',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Riesgos químicos',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Riesgos biomecánicos',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Riesgos psicosociales',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Condiciones de seguridad',
+            hash: 't_2_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Decreto 1072 del 2015',
+        titulo: 'Métodos de identificación y evaluación de riesgos laborales',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Resolución 0312 del 2019',
+        titulo:
+          'Matriz de identificación de peligros, valoración de riesgos y determinación de controles',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
-        numero: '5',
-        titulo: 'ISO 45001 del 2018',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo:
+              'Aspectos para tener en cuenta al desarrollar la identificación de los peligros y la valoración de los riesgos',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo:
+              'Actividades para la identificación de peligros y evaluación de riesgo',
+            hash: 't_4_2',
+          },
+        ],
       },
       {
         nombreRuta: 'sintesis',
@@ -85,111 +126,85 @@ export default {
   referencias: [
     {
       referencia:
-        'Rodríguez Mesa, R. (2016). Sistema general de riesgos laborales: Decretos 1477 y 1507 de 2014, Decreto Único Reglamentario del Sector Trabajo 1072 de 2015: (2 ed.). Universidad del Norte.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/69979',
+        'Instituto Nacional de Seguridad y Salud en el Trabajo (INSST) - España',
+      link: 'https://www.insst.es/',
     },
     {
       referencia:
-        'Congreso de Colombia (Julio 11 de 2012) Ley 1562 de 2012. Ministerio de Trabajo. Colombia.',
-      link: 'http://www.mintrabajo.gov.co/normatividad/leyes/2012.html',
-    },
-    {
-      referencia:
-        'República de Colombia. (Mayo 26 de 2015) Decreto 1072 de 2015. Ministerio de Trabajo. Colombia.',
-      link:
-        'http://www.mintrabajo.gov.co/normatividad/decreto-unico-reglamentario-trabajo.html',
-    },
-    {
-      referencia:
-        'Ministerio del Trabajo. (2019). Resolución 0312 de 2019: Estándares mínimos del sistema de la seguridad y salud en el trabajo.',
-      link:
-        'http://www.mintrabajo.gov.co/documents/20147/59995826/Resolucion+0312-2019-+Estandares+minimos+del+Sistema+de+la+Seguridad+y+Salud.pdf',
-    },
-    {
-      referencia:
-        'Ministerio de Trabajo de Colombia. (2016). Resolución 4927 de 2016.',
-      link:
-        'https://www.cancilleria.gov.co/sites/default/files/Normograma/docs/resolucion_mtra_4927_2016.htm?q=4927',
-    },
-    {
-      referencia:
-        'Cortés, J. M. (2018). Sistemas de gestión de la seguridad y salud en el trabajo (ISO 45001:2018): (1 ed.). Editorial ICB.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/225263',
-    },
-    {
-      referencia:
-        'Cortés, J. M. (2017). Sistemas de gestión de calidad (ISO 9001:2015): ( ed.). Editorial ICB.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/56053',
-    },
-    {
-      referencia:
-        'ISO (Organización Internacional de Normalización). (2017). ISO 14001:2015 para la pequeña empresa: ( ed.). AENOR - Asociación Española de Normalización y Certificación.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/53622',
-    },
-    {
-      referencia: 'Colmena Seguros. (s.f.). ABECE: Decreto 1072.',
-      link:
-        'https://www.colmenaseguros.com/documents/34929/40804/ABECE-Decreto-1072.pdf/ea961174-eb09-79d1-23b1-8a4e2aa72057?t=1702311076408',
-    },
-    {
-      referencia: 'Safety A. (2019). Resolución 0312 de 2019.',
-      link: 'https://safetya.co/normatividad/resolucion-0312-de-2019/#a3',
+        'Occupational Safety and Health Administration (OSHA) - EE. UU.',
+      link: 'https://www.osha.gov/',
     },
   ],
   glosario: [
     {
-      termino: 'SG-SST',
+      termino: 'Accidente de trabajo',
       significado:
-        'sistema de gestión de la seguridad y salud en el trabajo. Conjunto de políticas, procesos y procedimientos enfocados en la gestión de los riesgos laborales.',
+        'es un suceso repentino que provoca una lesión, perturbación funcional o psiquiátrica, invalidez o muerte en un trabajador, y que se produce por causa o con ocasión del trabajo',
     },
     {
-      termino: 'Sistema General de Riesgos Laborales',
+      termino: 'Análisis de Riesgos',
       significado:
-        'es el conjunto de entidades públicas y privadas, normas y procedimientos, destinados a prevenir, proteger y atender a los trabajadores de los efectos de las enfermedades y los accidentes que puedan ocurrirles con ocasión o como consecuencia del trabajo que desarrollan',
+        'Proceso sistemático para identificar y evaluar los riesgos que pueden afectar la seguridad y salud en el trabajo.',
     },
     {
-      termino: 'Matriz Legal',
+      termino: 'Controles',
       significado:
-        'es la compilación de los requisitos normativos exigibles a la empresa acorde con las actividades propias e inherentes de su actividad productiva, los cuales dan los lineamientos normativos y técnicos para desarrollar el Sistema de gestión de la seguridad y salud en el trabajo (SG-SST), el cual deberá actualizarse en la medida que sean emitidas nuevas disposiciones aplicables.',
+        'Medidas implementadas para mitigar o eliminar riesgos laborales, que pueden ser de tipo administrativo, ingeniería o equipos de protección personal.',
+    },
+    {
+      termino: 'Emergencia',
+      significado:
+        'Situación que representa una amenaza inminente para la salud, la seguridad o el medio ambiente, que requiere una respuesta inmediata.',
+    },
+    {
+      termino: 'Evaluación de Riesgos',
+      significado:
+        'Proceso de determinar la naturaleza y el grado de riesgo asociado a un peligro identificado, considerando la probabilidad de que ocurra un accidente y sus consecuencias.',
+    },
+    {
+      termino: 'Factor de Riesgo',
+      significado:
+        'Cualquier aspecto del entorno laboral, la organización del trabajo o las condiciones de trabajo que puede provocar un daño al trabajador.',
+    },
+    {
+      termino: 'Inspección de Seguridad',
+      significado:
+        'Evaluación física y sistemática de los lugares de trabajo para identificar condiciones peligrosas y asegurar el cumplimiento de las normativas de seguridad y salud.',
+    },
+    {
+      termino: 'Medidas Preventivas',
+      significado:
+        'Acciones o estrategias diseñadas para evitar o reducir la probabilidad de que ocurran accidentes y enfermedades laborales.',
+    },
+    {
+      termino: 'Normativa de Seguridad y Salud en el Trabajo',
+      significado:
+        'Conjunto de leyes, reglamentos y directrices destinadas a proteger la salud y seguridad de los trabajadores.',
     },
     {
       termino: 'Peligro',
       significado:
-        'fuente, situación o acto con potencial de causar daño en la salud de los trabajadores, en los equipos o en las instalaciones.',
+        'Cualquier cosa que pueda causar daño o enfermedad, como un material, una situación o una práctica laboral.',
+    },
+    {
+      termino: 'Plan de Emergencia',
+      significado:
+        'Conjunto de procedimientos establecidos para hacer frente a situaciones de emergencia en el lugar de trabajo.',
     },
     {
       termino: 'Riesgo',
       significado:
-        'combinación de la probabilidad de que ocurra una o más exposiciones o eventos peligrosos y la severidad del daño que puede ser causada por estos.',
+        'Probabilidad de que un peligro cause daño o lesión, que implica tanto la posibilidad de que ocurra un evento dañino como la severidad de sus consecuencias.',
     },
     {
-      termino: 'Valoración del riesgo',
+      termino: 'Trabajo Seguro',
       significado:
-        'consiste en emitir un juicio sobre la tolerancia o no del riesgo estimado.',
+        'Actividades y procedimientos que se realizan de forma que se minimicen los riesgos para la seguridad y salud de los trabajadores.',
     },
     {
-      termino: 'Trabajador',
+      termino: 'Investigación de Accidentes',
       significado:
-        'persona que realiza trabajo o actividades relacionadas con el trabajo que están bajo el control de la organización.',
-    },
-    {
-      termino: 'Lugar de trabajo',
-      significado:
-        'lugar bajo el control de la organización donde una persona necesita estar o ir por razones de trabajo.',
-    },
-    {
-      termino: 'Requisitos legales y otros requisitos',
-      significado:
-        'requisitos legales que una organización tiene que cumplir y otros requisitos que una organización tiene que cumplir o que elige cumplir.',
-    },
-    {
-      termino: 'Auditoría',
-      significado:
-        'proceso sistemático, independiente y documentado para obtener las evidencias de auditoría y evaluarlas de manera objetiva con el fin de determinar el grado en el que se cumplen los criterios de auditoría.',
-    },
-    {
-      termino: 'Mejora continua',
-      significado: 'actividad recurrente para mejorar el desempeño.',
+        'proceso de análisis de un accidente laboral para identificar sus causas y evitar que se repita en el futuro.',
     },
   ],
 }

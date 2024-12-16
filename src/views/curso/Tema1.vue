@@ -39,6 +39,29 @@
               p.mb-0 La identificación de riesgos laborales en Colombia, es un proceso vital que requiere la colaboración activa y el compromiso de empleadores y trabajadores. Fortalecer este aspecto no solo es un imperativo legal, sino también una inversión en la salud y bienestar del personal.  
         p.mb-0 La creación de un sistema de gestión integral que fomente la cultura de la prevención, se traduce en un entorno de trabajo más seguro y eficiente. Esta guía se propone ser una herramienta útil para todos los actores involucrados, contribuyendo al desarrollo de prácticas seguras y responsables, que no solo cumplan con la normativa vigente, sino que, además, promuevan un futuro laboral más saludable y productivo para todos.
       .col-lg-4.col-7: img(src='@/assets/curso/temas/11.png', alt='')
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/11786?page=12" target="_blank" rel="noopener noreferrer") Ramos Ramos, P. (2012). Análisis de los riesgos psicosociales: el estrés y el síndrome de burnout. Editorial Id3.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="http://www.mintrabajo.gov.co/normatividad/leyes/2012.html" target="_blank" rel="noopener noreferrer") Congreso de Colombia (2012). Ley 1562 de 2012. Ministerio de Trabajo.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="http://www.mintrabajo.gov.co/normatividad/decreto-unico-reglamentario.html" target="_blank" rel="noopener noreferrer") República de Colombia (2015). Decreto 1072 de 2015. Ministerio de Trabajo.
+
+            p.d-flex.mb-2
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'20px'}")
+              a(href="https://www.youtube.com/watch?v=adNuoWxs9NI" target="_blank" rel="noopener noreferrer") CATP Consultor. (2022d, octubre 5). IDENTIFICACIÓN DE PELIGROS- EVALUACIÓN y VALORACIÓN DE RIESGOS.
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>

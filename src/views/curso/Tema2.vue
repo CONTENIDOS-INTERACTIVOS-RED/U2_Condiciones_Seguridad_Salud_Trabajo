@@ -276,7 +276,7 @@
           div.text-small(numero="10" titulo="Fenómenos naturales")
             p.mb-0 Se refiere a eventos como terremotos, inundaciones, tormentas, deslizamientos de tierra, incendios forestales, entre otros, que pueden impactar el entorno laboral y poner en peligro la seguridad y salud de los trabajadores. Estos fenómenos pueden causar daños a la infraestructura, interrumpir operaciones y generar situaciones de riesgo para la vida y bienestar de los empleados.
       .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/38.png', alt='')
-    .bg-color-1.p-4(data-aos="fade-left" style="background-color: #F7DBD5").mb-4
+    .bg-color-1.p-4(data-aos="fade-left" style="background-color: #F7DBD5").mb-5
           .row
             .col-lg-auto
               img(src="@/assets/curso/temas/39.svg", style="max-width: 90px").mx-auto
@@ -286,7 +286,27 @@
 
 
 
-
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.bogotajuridica.gov.co/sisjur/normas/Norma1.jsp?i=53565" target="_blank" rel="noopener noreferrer") Ministerio de Trabajo y Seguridad Social. (1979). Resolución 2400 de 1979: Por el cual se establecen disposiciones sobre vivienda, higiene y seguridad industrial en los establecimientos de trabajo.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S1578-25492020000100003" target="_blank" rel="noopener noreferrer") Valero-Pacheco, Ivonne Constanza, & Riaño-Casallas, Martha I. (2020). Teletrabajo: Gestión de la Seguridad y Salud en el Trabajo en Colombia.
+            p.d-flex.mb-2
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'20px'}")
+              a(href="https://www.youtube.com/watch?v=et2wfVSKQhg" target="_blank" rel="noopener noreferrer") IMQ Prevención. (2022b, abril 5). Webinar. Análisis y aplicación de las metodologías de evaluación de factores psicosociales.
+            p.d-flex.mb-2
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'20px'}")
+              a(href="https://www.youtube.com/watch?v=7JnO9bJw2mk" target="_blank" rel="noopener noreferrer") Andrea Bibiana Perez Villescas. (2022, 10 octubre). Introducción a métodos de evaluación ergonómica.
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 
 
