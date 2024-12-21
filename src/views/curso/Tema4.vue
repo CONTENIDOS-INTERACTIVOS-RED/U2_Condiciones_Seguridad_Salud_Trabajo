@@ -18,8 +18,8 @@
             .col-lg-5
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/55.png', alt='')
-    #t_4_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 4.1 Aspectos para tener en cuenta al desarrollar la identificación de los peligros y la valoración de los riesgos 
+    #t_4_1.titulo-segundo(data-aos='fade-right')
+      h2 #[span 4.1] Aspectos para tener en cuenta al desarrollar la identificación de los peligros y la valoración de los riesgos 
     p.mb-4 Para garantizar la eficacia de la identificación de peligros y la valoración de riesgos, las organizaciones deben tener en cuenta los siguientes aspectos:
     .row.justify-content-center.mb-5
       .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/56.png', alt='')
@@ -80,8 +80,8 @@
                 span 7
               | Consultar a expertos en seguridad y salud ocupacional, cuando la organización lo considere pertinente.
     p.mb-4 Al seguir estas pautas, las organizaciones estarán mejor preparadas para identificar peligros y valorar riesgos de manera efectiva, contribuyendo así a un entorno de trabajo más seguro.
-    #t_4_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 4.2 Actividades para la identificación de peligros y evaluación de riesgos
+    #t_4_2.titulo-segundo(data-aos='fade-right')
+      h2 #[span 4.2] Actividades para la identificación de peligros y evaluación de riesgos
     .mn(style="background-color: #FAECE9")
       .px-5.p-md-5
           .row.justify-content-center.align-items-center

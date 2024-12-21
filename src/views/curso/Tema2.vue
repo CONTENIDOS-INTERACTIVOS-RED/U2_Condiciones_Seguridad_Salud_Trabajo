@@ -21,8 +21,8 @@
               p.mb-0 La guía se fundamenta en los principios básicos de la norma NTC-OHSAS 18001 y se apoya en el enfoque de gestión del riesgo establecido por la norma BS 8800 (British Standard) y la NTP 330 del Instituto Nacional de Seguridad e Higiene en el Trabajo de España (INSHT), así como en la NTC ISO 31000, que trata sobre los principios y directrices de la gestión del riesgo.
         p.mb-0.fw-bold A continuación, enmarcaremos los diferentes tipos de riesgos existentes, a nivel laboral.
       .col-lg-4.col-7: img(src='@/assets/curso/temas/14.png', alt='')
-    #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.1 Riesgos físicos
+    #t_2_1.titulo-segundo(data-aos='fade-right')
+      h2 #[span 2.1] Riesgos físicos
     .bg-color-4.mb-5(data-aos="fade-up" style="background-color: #FEF7E4 ")
       .row.justify-content-center.align-items-center
         .col-lg.order-2
@@ -154,8 +154,8 @@
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/25.png', alt='Texto que describa la imagen')
-    #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.2 Riesgos químicos
+    #t_2_2.titulo-segundo(data-aos='fade-right')
+      h2 #[span 2.2] Riesgos químicos
     p.mb-4 Se refiere a la posibilidad que los trabajadores sufran daños a su salud o seguridad, debido a la exposición a sustancias químicas en su lugar de trabajo. Estos riesgos pueden provenir de:
     ImagenInfografica.color-secundario.mb-5
       template(v-slot:imagen)
@@ -164,8 +164,8 @@
       .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
         .h5.mb-2 
         p 
-    #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.3 Riesgos biomecánicos
+    #t_2_3.titulo-segundo(data-aos='fade-right')
+      h2 #[span 2.3] Riesgos biomecánicos
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3 
         p.mb-4 El riesgo biomecánico, según la normatividad colombiana, se refiere a las condiciones de trabajo que pueden afectar la salud y el bienestar de los trabajadores, debido a movimientos repetitivos, posturas inadecuadas, manipulación de cargas y otras actividades que pueden generar lesiones músculo -esqueléticas.
@@ -197,8 +197,8 @@
           div.text-small(numero="6" titulo="Manipulación manual de carga")
             p.mb-0 Se refiere a la probabilidad que un trabajador sufra lesiones o trastornos músculo -esqueléticos, debido a las demandas físicas a las que está expuesto al mover, levantar, empujar, tirar o transportar objetos.
       .col-lg-4.col-7: img(src='@/assets/curso/temas/30.png', alt='')
-    #t_2_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.4 Riesgos psicosociales
+    #t_2_4.titulo-segundo(data-aos='fade-right')
+      h2 #[span 2.4] Riesgos psicosociales
     .row.justify-content-center.mb-5
       .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/31.svg', alt='')
       .col-lg-8
@@ -245,8 +245,8 @@
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/36.png', alt='Texto que describa la imagen')
-    #t_2_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.5 Condiciones de seguridad
+    #t_2_5.titulo-segundo(data-aos='fade-right')
+      h2 #[span 2.5] Condiciones de seguridad
     p.mb-4 Los riesgos por condiciones de seguridad, se refieren a los factores materiales que pueden dar lugar a accidentes en el trabajo. Entre los riesgos de seguridad más comunes se encuentran las caídas, golpes, atrapamientos, cortes, incendios y explosiones, dentro de los cuales, destacaremos los siguientes: 
     .row.justify-content-center.mb-5
       .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/37.png', alt='')
