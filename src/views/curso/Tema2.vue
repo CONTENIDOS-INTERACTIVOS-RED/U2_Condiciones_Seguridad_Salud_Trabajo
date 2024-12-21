@@ -157,13 +157,39 @@
     #t_2_2.titulo-segundo(data-aos='fade-right')
       h2 #[span 2.2] Riesgos químicos
     p.mb-4 Se refiere a la posibilidad que los trabajadores sufran daños a su salud o seguridad, debido a la exposición a sustancias químicas en su lugar de trabajo. Estos riesgos pueden provenir de:
-    ImagenInfografica.color-secundario.mb-5
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/temas/26.svg', alt='Texto que describa la imagen')
-      .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
-        .h5.mb-2 
-        p 
+    
+    .bg-full-width.bg-color-2.mb-0
+      .p-4.p-md-5
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-8
+            ImagenInfografica.color-acento-contenido.mb-5
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/temas/info1.png', style="max-width: 765px;").mx-auto
+              .bg-color-white.box-shadow.p-3(x="50%" y="1%" numero="+")
+                .h5.mb-2 Polvos orgánicos e inorgánicos
+                p Se refiere a la posibilidad que la exposición a estos materiales en forma de partículas en suspensión en el aire, pueda provocar efectos adversos en la salud humana o en el medio ambiente.
+              .bg-color-white.box-shadow.p-3(x="84%" y="23%" numero="+")
+                .h5.mb-2 Fibras
+                p Pueden surgir en un entorno laboral o de exposición, debido a la manipulación, procesamiento o uso de materiales fibrosos. Este riesgo puede incluir diversas sustancias químicas que se utilizan en la producción de fibras (como productos químicos para el tratamiento de fibras, colorantes, adhesivos, entre otros), o que son liberadas durante su manipulación. Existen diferentes tipos de fibras, tanto naturales (como algodón, lana, y seda), como sintéticas (como poliéster, nylon y acrílicos).
+              .bg-color-white.box-shadow.p-3(x="95%" y="50%" numero="+")
+                .h5.mb-2 Nieblas y rocíos
+                p Las nieblas son aerosoles que consisten en pequeñas gotas de líquido suspendidas en el aire. Los rocíos son similares, pero generalmente se refieren a gotas que se depositan en superficies. Ambos pueden ser generados por procesos industriales, productos de limpieza, pulverización de pesticidas, entre otros.
+              .bg-color-white.box-shadow.p-3(x="84%" y="78%" numero="+")
+                .h5.mb-2 Gases
+                p Son sustancias que se encuentran en estado gaseoso a temperatura y presión ambiente. Pueden ser tóxicos, corrosivos, inflamables o asfixiantes.
+              .bg-color-white.box-shadow.p-3(x="50%" y="99%" numero="+")
+                .h5.mb-2 Vapores
+                p Son la fase gaseosa de una sustancia que es líquida o sólida, a temperatura ambiente. Se generan cuando una sustancia se evapora. Los vapores pueden ser igualmente peligrosos, incluso en concentraciones bajas.
+              .bg-color-white.box-shadow.p-3(x="16%" y="78%" numero="+")
+                .h5.mb-2 Humos metálicos
+                p Los humos metálicos son partículas microscópicas que se generan durante procesos como la soldadura, la fundición y la fusión de metales. Estos humos pueden contener metales pesados, como plomo, mercurio, cadmio y manganeso, entre otros. La inhalación de estos humos puede resultar en una serie de problemas de salud, incluidos trastornos respiratorios, neurotoxicidad y otros efectos agudos o crónicos asociados con la exposición a metales pesados.
+              .bg-color-white.box-shadow.p-3(x="5%" y="50%" numero="+")
+                .h5.mb-2 Humos no metálicos
+                p Los humos no metálicos, por otro lado, incluyen partículas generadas por la combustión de materiales orgánicos o inorgánicos, como el carbón, el plástico y otros compuestos. Estos humos pueden contener una variedad de sustancias químicas tóxicas, como hidrocarburos aromáticos policíclicos (HAP), dioxinas y furanos, y también pueden contribuir a problemas respiratorios, irritación de las mucosas y efectos más graves en la salud a largo plazo, como el cáncer.
+              .bg-color-white.box-shadow.p-3(x="15%" y="23%" numero="+")
+                .h5.mb-2 Material particulado
+                p Se refiere a la posibilidad que la exposición a partículas sólidas o líquidas en suspensión en el aire, provoque efectos adversos para la salud humana o el medio ambiente. El material particulado puede incluir una variedad de sustancias, como polvo, hollín, fibras, aerosoles y otras partículas generadas por actividades industriales, construcción, tráfico vehicular, y procesos naturales.
     #t_2_3.titulo-segundo(data-aos='fade-right')
       h2 #[span 2.3] Riesgos biomecánicos
     .row.justify-content-center.mb-5
