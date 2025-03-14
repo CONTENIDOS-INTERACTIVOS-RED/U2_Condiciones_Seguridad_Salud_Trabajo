@@ -115,16 +115,192 @@
                 .anexo__texto
                   p <strong>Anexo. </strong> GTC 45.
     
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
 
 
 </template>
 
 <script>
 import BannerInterno from '../../components/plantilla/BannerInterno'
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
   name: 'Tema4',
   components: {
     BannerInterno,
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Matemática financiera',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              '¿qué combinación es esencial para la identificación de riesgos? ',
+            imagen: require('@/assets/actividad/imagen1.png'),
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Prácticas normativas y complacencia ',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Teoría y práctica ',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'La observación y el silencio ',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Recursos limitados y tecnología avanzada',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto: 'La sensibilización sobre la autoprotección debe ser: ',
+            imagen: require('@/assets/actividad/imagen2.png'),
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Opcional para los empleados ',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Parte integral de la cultura organizacional ',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Solo promovida en nuevos empleados',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Descartada en favor de técnicas avanzadas',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto:
+              'Interpretando la GTC 45, el proceso de identificación de riesgos debe ser: ',
+            imagen: require('@/assets/actividad/imagen3.png'),
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Unidireccional ',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Abierto y participativo ',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Controlado solo por la alta dirección ',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Exclusivo para la gerencia',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto:
+              'Pablo se encuentra manipulando una caldera, al abrir la llave, siente que se encuentra caliente y tiene una quemadura de segundo grado. Este riesgo se puede clasificar como: ',
+            imagen: require('@/assets/actividad/imagen4.png'),
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Riesgo Químico ',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Condición de seguridad ',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Riesgo físico',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Riesgo psicosocial',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto: 'La legislación colombiana exige a los empleadores:',
+            imagen: require('@/assets/actividad/imagen1.png'),
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Ignorar los informes de riesgo ',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Cumplir con la evaluación de riesgos ',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Realizar despidos masivos ',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Solo cumplir con la normativa internacional',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
   },
   mounted() {
     this.$nextTick(() => {
@@ -135,7 +311,6 @@ export default {
 </script>
 
 <style lang="sass">
-.material-complementario
-  padding-top: 3rem
-  border-top: 9px solid $color-sistema-e
+.bg-color-actividad
+  background-color: #EBF1F5
 </style>
