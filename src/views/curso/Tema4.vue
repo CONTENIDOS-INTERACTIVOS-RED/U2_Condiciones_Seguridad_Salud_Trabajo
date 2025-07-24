@@ -1,21 +1,20 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'4. Resolución 0312 del 2019'")
+  BannerInterno(:subTitulo="'4. Matriz de identificación de peligros, valoración de riesgos y determinación de controles'")
   .container.tarjeta.tarjeta--blanca.px-4.px-md-5
     .mn(style="background-color: #E2E9F3").mb-4
       .px-5.p-md-5
           .row.justify-content-center.align-items-center
-            .col-lg-7.mb-lg-0.mb-3
-              h2.mb-4(data-aos="flip-up") Teorías resolución de conflictos
-              p.mb-4(data-aos="fade-right") El análisis de las teorías de conflicto, como la teoría de la escasez de recursos de Karl Marx, la teoría del poder de Max Weber, la teoría funcionalista de Lewis Coser y la teoría psicológica, proporciona un marco integral para comprender las tensiones sociales y económicas. Estas teorías permiten explorar desde la competencia por recursos limitados y las dinámicas de poder, hasta los aspectos funcionales y psicológicos de los conflictos, destacando cómo las interacciones entre clases, grupos e individuos pueden llevar a cambios significativos en la sociedad. A continuación, en el PDF Teorías resolución de conflictos, se profundizará en cada una de estas teorías, sus implicaciones y estrategias de resolución de conflictos para fomentar un entendimiento más amplio de las tensiones y su manejo.
+            .col-lg-8.mb-lg-0.mb-3
+              p.mb-4(data-aos="fade-right") En el PDF Matriz, se estudiará la matriz de peligros, valoración de riesgos y controles, basada en la Guía Técnica Colombiana GTC 45, una herramienta fundamental en el ámbito de la seguridad y salud ocupacional. Este documento abordará cómo este marco permite a empleadores y trabajadores identificar peligros, evaluar riesgos y aplicar controles efectivos, fomentando una cultura de prevención y garantizando condiciones laborales seguras. Su aplicación, más allá del cumplimiento legal, busca proteger la salud de los trabajadores y promover prácticas sostenibles en diversos sectores.
 
-              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
                 .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
                   p <strong>Anexo. </strong> Matriz.
 
-            .col-lg-5
+            .col-lg-4
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/55.png', alt='')
     #t_4_1.titulo-segundo(data-aos='fade-right')
@@ -89,7 +88,7 @@
               h2.mb-4(data-aos="flip-up") Actividades para la identificación de peligros y evaluación de riesgos
               p.mb-4(data-aos="fade-right") Se estudiarán las actividades esenciales para la construcción y gestión de la matriz de identificación de peligros, valoración de riesgos y determinación de controles, según los lineamientos de la GTC 45. Estas actividades incluyen desde la clasificación de procesos laborales y la identificación de peligros, hasta la evaluación de riesgos y el diseño de planes de acción para su mitigación. Este enfoque sistemático no solo permite garantizar la seguridad y salud en el trabajo, sino también fomentar una cultura organizacional basada en la prevención y la mejora continua.
 
-              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/anexo_2.pdf')" target="_blank")(data-aos="flip-up")
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
                 .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -109,7 +108,7 @@
                 br
                 |Ministerio de Trabajo. (2012). GTC 45: Guía para la identificación de los peligros y la valoración de los riesgos en seguridad y salud  ocupacional.
 
-              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/anexo_3.pdf')" target="_blank")(data-aos="flip-up")
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
                 .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -120,6 +119,25 @@
         #Actividad                
           <Actividad :cuestionario="cuestionario"/>
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S1991-93952024000100013&lng=es&tlng=es" target="_blank" rel="noopener noreferrer") Acosta Pérez, I., Marrero Delgado, F., Espinosa Acosta, J. Á., Rivero Rodríguez, L. D., & Ramírez Lara, D. (2024). Gestión estratégica de los riesgos de Seguridad y Salud en el Trabajo. Revista Cubana de Salud y Trabajo, 25(1).
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=KdbIvWxGj8M" target="_blank" rel="noopener noreferrer") Centro para la Excelencia en el Aprendizaje. (2017, 4 diciembre). Matriz IPEVRIC.
+
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 </template>
 

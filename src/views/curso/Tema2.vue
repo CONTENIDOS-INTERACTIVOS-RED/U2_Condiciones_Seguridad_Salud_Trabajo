@@ -158,7 +158,7 @@
       h2 #[span 2.2] Riesgos químicos
     p.mb-4 Se refiere a la posibilidad que los trabajadores sufran daños a su salud o seguridad, debido a la exposición a sustancias químicas en su lugar de trabajo. Estos riesgos pueden provenir de:
     
-    .bg-full-width.bg-color-2.mb-0
+    .bg-full-width.bg-color-2.mb-5
       .p-4.p-md-5
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-8
@@ -194,7 +194,7 @@
       h2 #[span 2.3] Riesgos biomecánicos
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3 
-        p.mb-4 El riesgo biomecánico, según la normatividad colombiana, se refiere a las condiciones de trabajo que pueden afectar la salud y el bienestar de los trabajadores, debido a movimientos repetitivos, posturas inadecuadas, manipulación de cargas y otras actividades que pueden generar lesiones músculo -esqueléticas.
+        p.mb-4 El riesgo biomecánico, según la normatividad colombiana, se refiere a las condiciones de trabajo que pueden afectar la salud y el bienestar de los trabajadores, debido a movimientos repetitivos, posturas inadecuadas, manipulación de cargas y otras actividades que pueden generar lesiones músculo esqueléticas.
         .bg-color-1.p-4(data-aos="fade-left" style="background-color: #F7DBD5").mb-4
           .row
             .col-lg-auto

@@ -49,12 +49,6 @@
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://elibro.net/es/ereader/tecnologicadeloriente/11786?page=12" target="_blank" rel="noopener noreferrer") Ramos Ramos, P. (2012). Análisis de los riesgos psicosociales: el estrés y el síndrome de burnout. Editorial Id3.
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="http://www.mintrabajo.gov.co/normatividad/leyes/2012.html" target="_blank" rel="noopener noreferrer") Congreso de Colombia (2012). Ley 1562 de 2012. Ministerio de Trabajo.
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="http://www.mintrabajo.gov.co/normatividad/decreto-unico-reglamentario.html" target="_blank" rel="noopener noreferrer") República de Colombia (2015). Decreto 1072 de 2015. Ministerio de Trabajo.
 
             p.d-flex.mb-2
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'20px'}")

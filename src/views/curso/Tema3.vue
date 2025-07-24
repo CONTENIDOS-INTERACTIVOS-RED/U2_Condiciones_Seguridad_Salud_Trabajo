@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'3. Decreto 1072 del 2015'")
+  BannerInterno(:subTitulo="'3. Métodos de identificación y evaluación de riesgos laborales'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .bg-color-4.mb-5(data-aos="fade-up" style="background-color: #F7DBD5 ")
       .row.justify-content-center.align-items-center
